@@ -9,7 +9,7 @@ import img4 from "../images/doodlemyday.jpg";
 import img5 from "../images/sessions.jpg";
 import img6 from "../images/bookmark.jpg";
 
-import bgi from "../images/pattern1.jpg";
+import bgi from "../images/bg05.jpg";
 
 const Events = () => {
   return (

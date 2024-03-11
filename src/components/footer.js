@@ -107,7 +107,7 @@ const Footer = () => {
 
         <div class="bg-zinc-500 p-3 text-center">
           <span>© 2024 Copyright:</span>
-          Shrey jain
+          Kalakriti
         </div>
       </footer>
     </>
