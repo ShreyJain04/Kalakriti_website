@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kalakriti_website/static/css/main.450ba3a3.css",
-    "main.js": "/Kalakriti_website/static/js/main.5c089805.js",
+    "main.js": "/Kalakriti_website/static/js/main.d1d0e67e.js",
     "static/media/Matta Rohit.jpg": "/Kalakriti_website/static/media/Matta Rohit.d21f7987bc20f4a872e2.jpg",
     "static/media/Sanjana Varre.jpeg": "/Kalakriti_website/static/media/Sanjana Varre.7345c56b2cce52f91adb.jpeg",
     "static/media/Ayush Mishra.jpg": "/Kalakriti_website/static/media/Ayush Mishra.fc2d957e2e35e65bad8d.jpg",
@@ -37,10 +37,10 @@
     "static/media/bg02.jpg": "/Kalakriti_website/static/media/bg02.3ee332de677a3c29784d.jpg",
     "index.html": "/Kalakriti_website/index.html",
     "main.450ba3a3.css.map": "/Kalakriti_website/static/css/main.450ba3a3.css.map",
-    "main.5c089805.js.map": "/Kalakriti_website/static/js/main.5c089805.js.map"
+    "main.d1d0e67e.js.map": "/Kalakriti_website/static/js/main.d1d0e67e.js.map"
   },
   "entrypoints": [
     "static/css/main.450ba3a3.css",
-    "static/js/main.5c089805.js"
+    "static/js/main.d1d0e67e.js"
   ]
 }
