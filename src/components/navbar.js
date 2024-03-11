@@ -9,7 +9,7 @@ const Navbar = () => {
       <div class="flex justify-center z-[99]">
         <nav class="self-center flex-no-wrap fixed top-0 w-full  shadow bg-my_navy shadow z-100 ">
           <div class="flex justify-between items-center text-my_gray1">
-            <span class="h-100 mx-4 my-2 md:h-200">
+            <span class="h-100 pl-2 my-2 md:h-200">
               <img src={logo} alt="kalakriti Logo" />
             </span>
             <div class="flex-col justify-center items-center">
@@ -53,19 +53,19 @@ const Navbar = () => {
               <div class="absolute top-0 -right-full opacity-0 h-screen w-[60%] border bg-my_navy shadow group-focus:right-0 group-focus:opacity-100 transition-all ease-in duration-300 ">
                 <ul class="flex flex-col items-center font-my_font2 text-2xl  pt-[80px]">
                   <li class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-green-300 py-4 px-6 w-full">
-                    <Link to="/">Home</Link>
+                    <Link to="/" onClick={ScrollToTopLink}>Home</Link>
                   </li>
                   <li class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-green-300 py-4 px-6 w-full">
-                    <Link to="/clubs">Clubs</Link>
+                    <Link to="/clubs" onClick={ScrollToTopLink}>Clubs</Link>
                   </li>
                   <li class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-green-300 py-4 px-6 w-full">
-                    <Link to="/team">Team</Link>
+                    <Link to="/team" onClick={ScrollToTopLink} v>Team</Link>
                   </li>
                   <li class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-green-300 py-4 px-6 w-full">
-                    <Link to="/Events">Events</Link>
+                    <Link to="/Events" onClick={ScrollToTopLink}>Events</Link>
                   </li>
                   <li class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-green-300 py-4 px-6 w-full">
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/contact" onClick={ScrollToTopLink}>Contact</Link>
                   </li>
                 </ul>
               </div>

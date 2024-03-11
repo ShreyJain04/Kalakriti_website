@@ -5,7 +5,7 @@ const MentorCard = (props) => {
   return (
     <>
       <div
-        class="text-center text-gray-500 bg-slate-300 rounded-3xl shadow-xl "
+        class="text-center text-gray-500 bg-slate-200 rounded-3xl shadow-xl "
         data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000"

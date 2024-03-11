@@ -11,7 +11,8 @@ const Contact = () => {
 
   return (
     <>
-      <section class="bg-slate-300">
+    
+      <section class="bg-gradient-to-r from-pink-100 via-pink-200 via-slate-200 via-purple-200 to-purple-100">
         <div class="pt-24 md:pt-28">
           <div class="flex items-center justify-center my-2">
             <div class="flex-col space-y-4 text-center">
@@ -92,7 +93,7 @@ const Contact = () => {
             </div>
 
             <button
-              class=" text-white mb-4 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              class=" text-white bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
               type="submit"
               disabled={state.submitting}
             >

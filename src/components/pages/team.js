@@ -2,9 +2,9 @@ import React from "react";
 import TeamCard from "../teamCard";
 import MentorCard from "../mentorCard";
 import arr from "../jsonFiles/mentors.json";
-import mentor from "../jsonFiles/mentors.json";
 import team from "../jsonFiles/team.json";
-import bgi from "../images/bluebg.jpg";
+import grouppic from "../images/grouppic.jpg"
+import bgi from "../images/bg04.jpg";
 
 import img1 from "../images/members/Sanjana Varre.jpeg";
 import img2 from "../images/members/Matta Rohit.jpg";
@@ -23,10 +23,13 @@ const Team = () => {
   return (
     <>
       <section className="relative bg-slate-300">
-        {/* <div
-          className="absolute bottom-0 left-0  w-full h-full bg-center  opacity-100 "
+        <div
+          className="absolute bottom-0 left-0  w-full h-full bg-center  bg-cover bg-no-repeat opacity-100 "
           style={{ backgroundImage: `url(${bgi})` }}
-        ></div> */}
+        ></div>
+
+        {/* Heading */}
+        
         <div class="pt-24 md:pt-28">
           <div class="flex items-center justify-center my-2">
             <div class="flex-col space-y-8 text-center z-10">
@@ -45,7 +48,7 @@ const Team = () => {
         {/* Secretary and Governers (Team Card) */}
 
         <div class="flex items-center justify-center text-center w-[100%] ">
-          <div class="flex flex-col items-center justify-center  w-full bg-slate-400 z-10">
+          <div class="flex flex-col items-center justify-center  w-full bg-pink-100 z-10">
             <div class="flex flex-col p-2 m-2 w-full ">
               <div class="flex items-center  justify-center md:flex-row flex-col space-x-4 space-y-4 p-2 ">
                 <TeamCard
@@ -88,8 +91,8 @@ const Team = () => {
         </div>
 
         <section class="bg-slate-400 dark:bg-gray-900 z-10">
-          <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
-            <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          <div class="py-4 px-8 mx-0 md:mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
+            <div class="grid gap-8 grid-cols-2 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
               <MentorCard
                 img={img5}
                 name={arr[0].name}
@@ -149,8 +152,8 @@ const Team = () => {
         <div class="mt-2 z-10">
           <div class="flex items-center justify-center my-2">
             <img
-              className=" h-48 md:h-96 w-full my-2 px-4 md:my-2 md:px-48  object-cover object-center shadow-xl shadow-blue-gray-900/50 z-10"
-              src={img1}
+              className=" h-48 md:h-96 w-full py-2 px-4 md:py-4 md:px-48  object-cover object-center shadow-xl shadow-blue-gray-900/50 z-10"
+              src={grouppic}
               alt="Not Found"
             />
           </div>

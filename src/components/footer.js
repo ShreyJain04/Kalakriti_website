@@ -3,9 +3,9 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <footer class="bg-zinc-300 text-center text-surface/75 dark:bg-neutral-700 dark:text-white/75 lg:text-left">
+      <footer class="bg-zinc-400 text-center text-surface/75 dark:bg-neutral-700 dark:text-white/75 lg:text-left">
         <div class="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-white/10 lg:justify-between">
-          <div class="me-12 font-my_font3 font-bold hidden lg:block">
+          <div class="me-12 font-my_font3 font-bold hidden lg:block  z-10">
             <span>Get connected with us on social networks:</span>
           </div>
 
@@ -38,11 +38,11 @@ const Footer = () => {
           </div>
         </div>
 
-        <div class="me-12 my-4 mx-6 font-my_font3 font-bold hidden lg:block">
+        <div class="me-12 my-4 mx-6 font-my_font3 font-bold hidden lg:block ">
           <span>Instagram Art pages of our members:</span>
         </div>
 
-        <div class="mx-6 py-3 text-center md:text-left">
+        <div class="mx-6 py-3 text-center md:text-left ">
           <div class="grid-cols-4 grid gap-8 md:grid-cols-4 lg:grid-cols-5 ">
             <a
               href="https://www.instagram.com/mr_acry_lic?igsh=amQzM3cxbjlnOGxy"
@@ -105,7 +105,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div class="bg-black/5 p-3 text-center">
+        <div class="bg-zinc-500 p-3 text-center">
           <span>© 2024 Copyright:</span>
           Shrey jain
         </div>
