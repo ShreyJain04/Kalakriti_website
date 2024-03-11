@@ -9,7 +9,7 @@ import Team from "./components/pages/team";
 
 function App() {
   return (
-    <BrowserRouter basename="/Kalakrit_website">
+    <BrowserRouter >
       <Navbar />
       <Routes>
         <Route index element={<Home_page />} />
