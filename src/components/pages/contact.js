@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../footer";
 import { ValidationError, useForm } from "@formspree/react";
-import img from "../images/bl.jpg";
+
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("xayrbngb");

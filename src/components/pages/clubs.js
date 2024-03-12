@@ -1,5 +1,4 @@
 import React from "react";
-import bg2 from "../images/bg2.jpg";
 import bgi from "../images/bg02.jpg";
 import { LeftCard, RightCard } from "../clubsCard";
 import arr from "../jsonFiles/clubs.json";
@@ -23,7 +22,7 @@ const Clubs = () => {
         ></div>
         {/* Heading */}
 
-        <div class="pt-24 md:pt-28 ">
+        <div class="pt-20 md:pt-24 ">
           <div class="flex items-center justify-center my-2">
             <div class="flex-col space-y-4 text-center z-10">
               <h2 class="mb-4 text-4xl tracking-tight font-my_font1 text-gray-900 dark:text-white">

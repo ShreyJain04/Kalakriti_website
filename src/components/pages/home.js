@@ -1,6 +1,5 @@
 import React from "react";
 import bg1 from "../images/bg1.jpg";
-import bl from "../images/bl.jpg"
 import img from "../images/face3.png";
 
 
@@ -9,7 +8,7 @@ const Home = () => {
     <>
     <section>
       <div
-        className="absolute top-0 left-0 w-full h-full md:h-full   bg-cover bg-no-repeat opacity-70 z-[-1]"
+        className="absolute top-0 left-0 w-full h-full md:h-full   bg-cover bg-no-repeat opacity-75 z-[-1]"
         style={{ backgroundImage: `url(${bg1})` }}
       ></div>
       <div class="flex justify-center mt-20 md:mt-0  p-5 md:p-0 lg:p-20 shadow-lg" >
