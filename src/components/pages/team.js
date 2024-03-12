@@ -7,9 +7,9 @@ import grouppic from "../images/grouppic.jpg"
 import bgi from "../images/bg04.jpg";
 
 import img1 from "../images/members/Sanjana Varre.jpeg";
-import img2 from "../images/members/Matta Rohit.jpg";
+import img2 from "../images/members/Kartheek Pavada.jpg";
 import img3 from "../images/members/MEESALA AAKANKSHA.jpeg";
-import img4 from "../images/members/Kartheek Pavada.jpg";
+import img4 from "../images/members/Matta Rohit.jpg";
 
 import img5 from "../images/members/Bhavya Garg.jpg";
 import img6 from "../images/members/Ayush Mishra.jpg";
