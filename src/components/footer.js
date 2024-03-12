@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <footer class="bg-zinc-400 text-center text-surface/75 dark:bg-neutral-700 dark:text-white/75 lg:text-left">
+      <footer class="bg-stone-300 text-center text-surface/75 dark:bg-neutral-700 dark:text-white/75 lg:text-left">
         <div class="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-white/10 lg:justify-between">
           <div class="me-12 font-my_font3 font-bold hidden lg:block  z-10">
             <span>Get connected with us on social networks:</span>
@@ -105,7 +105,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div class="bg-zinc-500 p-3 text-center">
+        <div class="bg-neutral-400 p-3 text-center">
           <span>© 2024 Copyright:</span>
           Kalakriti
         </div>

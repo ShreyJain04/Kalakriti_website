@@ -17,15 +17,16 @@ import img7 from "../images/members/Sarin Hassan.jpg";
 import img8 from "../images/members/Sushma Reddy.jpeg";
 import img9 from "../images/members/Nithya Narishetty.jpg";
 import img10 from "../images/members/BestaSaiPrathap.jpg";
-import img11 from "../images/members/Natasha.jpg";
+import img11 from "../images/members/MeghanaRaaj.jpg";
+import img12 from "../images/members/Natasha.jpg";
 
 const Team = () => {
   return (
     <>
       <section className="relative bg-slate-300">
         <div
-          className="absolute bottom-0 left-0  w-full h-full bg-center  bg-cover bg-no-repeat opacity-100 "
-          style={{ backgroundImage: `url(${bgi})` }}
+          className="absolute bottom-0 left-0  w-full h-full bg-center  bg-gradient-to-r from-pink-300 to-pink-300 via-pink-200 via-pink-150 via-red-300 via-orange-200 via rose-300 via-rose-200 via-pink-200 via-rose-200 via-orange-300 to-pink-300"
+          // style={{ backgroundImage: `url(${bgi})` }}
         ></div>
 
         {/* Heading */}
@@ -47,8 +48,8 @@ const Team = () => {
 
         {/* Secretary and Governers (Team Card) */}
 
-        <div class="flex items-center justify-center text-center w-[100%] ">
-          <div class="flex flex-col items-center justify-center  w-full bg-pink-100 z-10">
+        <div class="flex items-center justify-center text-center w-[100%]  ">
+          <div class="flex flex-col items-center justify-center  w-full bg-gradient-to-r from-pink-300 to-pink-300 via-pink-200 via-pink-150 via-red-300 via-orange-200 via rose-300 via-rose-200 via-pink-200 via-rose-200 via-orange-300 to-pink-300 z-10">
             <div class="flex flex-col p-2 m-2 w-full ">
               <div class="flex items-center  justify-center md:flex-row flex-col space-x-4 space-y-4 p-2 ">
                 <TeamCard
@@ -124,12 +125,12 @@ const Team = () => {
                 position={arr[5].position}
               />
               <MentorCard
-                img={img1}
+                img={img11}
                 name={arr[6].name}
                 position={arr[6].position}
               />
               <MentorCard
-                img={img11}
+                img={img12}
                 name={arr[7].name}
                 position={arr[7].position}
               />

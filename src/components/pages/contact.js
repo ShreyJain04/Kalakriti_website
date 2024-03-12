@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <>
     
-      <section class="bg-gradient-to-r from-pink-100 via-pink-200 via-slate-200 via-purple-200 to-purple-100">
+      <section class="bg-gradient-to-r from-pink-100 via-pink-200 via-puple-200 via-slate-200 via-blue-200 via-purple-200 via-cyan-200 to-purple-200">
         <div class="pt-24 md:pt-28">
           <div class="flex items-center justify-center my-2">
             <div class="flex-col space-y-4 text-center">
