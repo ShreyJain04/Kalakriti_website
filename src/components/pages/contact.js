@@ -1,14 +1,23 @@
 import React from "react";
 import Footer from "../footer";
 import { ValidationError, useForm } from "@formspree/react";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { useNavigate} from "react-router-dom";
 
 
 const Contact = () => {
+
+  const navigate= useNavigate();
   const [state, handleSubmit] = useForm("xayrbngb");
   if (state.succeeded) {
-    return <p>Message sent successfully!</p>;
+    navigate("/");
+    toast.success("Message sent successfully!");
+  }else {
+    console.log("error");
+    navigate("/");
+    // toast.error("Message sent successfully!");
   }
-
   return (
     <>
     
